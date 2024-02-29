@@ -14,10 +14,15 @@
                     <div class="d-flex flex-no-wrap justify-space-between">
                     <div>
                         <v-card-title class="text-h5">
-                        Users
+                        Registerd Users
                         </v-card-title>
 
-                        <v-card-subtitle>Foster the People</v-card-subtitle>
+                        <v-card-subtitle>
+							<v-chip color="green" variant="flat">
+								<v-icon icon="mdi-account" start></v-icon>
+							1000
+							</v-chip>
+						</v-card-subtitle>
 
                         <v-card-actions>
                         <v-btn
@@ -25,7 +30,7 @@
                             variant="outlined"
                             size="small"
                         >
-                            START RADIO
+                            View Users
                         </v-btn>
                         </v-card-actions>
                     </div>
@@ -49,10 +54,14 @@
                     <div class="d-flex flex-no-wrap justify-space-between">
                     <div>
                         <v-card-title class="text-h5">
-                        Vaccancies
+                        Advertised Jobs
                         </v-card-title>
-
-                        <v-card-subtitle>Foster the People</v-card-subtitle>
+                        <v-card-subtitle>
+							<v-chip color="green" variant="flat">
+							<v-icon icon="mdi-account-hard-hat-outline" start></v-icon>
+							2
+							</v-chip>
+						</v-card-subtitle>
 
                         <v-card-actions>
                         <v-btn
@@ -60,7 +69,7 @@
                             variant="outlined"
                             size="small"
                         >
-                            START RADIO
+                            View Jobs
                         </v-btn>
                         </v-card-actions>
                     </div>
@@ -87,7 +96,14 @@
                         Applications
                         </v-card-title>
 
-                        <v-card-subtitle>Foster the People</v-card-subtitle>
+                        <v-card-subtitle>
+							<v-card-subtitle>
+							<v-chip color="green" variant="flat">
+							<v-icon icon="mdi-account" start></v-icon>
+							47
+							</v-chip>
+						</v-card-subtitle>
+						</v-card-subtitle>
 
                         <v-card-actions>
                         <v-btn
@@ -95,7 +111,7 @@
                             variant="outlined"
                             size="small"
                         >
-                            START RADIO
+                            View Applications
                         </v-btn>
                         </v-card-actions>
                     </div>
