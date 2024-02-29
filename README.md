@@ -1,57 +1,80 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Project Name: Recruitment Portal
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Description:
 
-## About Laravel
+This web application streamlines the recruitment process for both companies and job seekers. Companies can effortlessly post jobs, manage applications, and communicate with candidates, while job seekers can discover suitable opportunities, submit applications with ease, and track their progress.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Technology Stack:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    Frontend:
+        HTML: Foundation for structuring content and defining the application's layout.
+        CSS: Stylizes the user interface with visual elements for a polished look.
+        JavaScript: Adds interactivity and dynamic behavior to the application.
+        Vue.js: JavaScript framework that provides a component-based structure, reactivity, and a smoother development experience.
+        Vuetify: UI library built on top of Vue.js for rapid and responsive UI development, offering pre-built components and customization options.
+    Backend:
+        PHP: Server-side scripting language for handling complex logic, database interactions, and API development.
+        Laravel: PHP framework that provides a robust foundation for building web applications, including built-in features for authentication, routing, database access, and security.
+        MySQL: Open-source relational database management system for storing and managing application data.
+    Inertia.js: Adapts the Laravel Blade templating engine for use with Vue.js components, enabling server-side rendering and seamless integration between the frontend and backend.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Getting Started:
 
-## Learning Laravel
+    Prerequisites:
+        Node.js and npm (or yarn) installed
+        Composer installed
+        MySQL server running
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    Clone the repository:
+    Bash
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+    git clone https://github.com/your-username/recruitment-portal.git
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+    Use code with caution.
 
-## Laravel Sponsors
+Install dependencies:
+Bash
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+cd recruitment-portal
+npm install && composer install
 
-### Premium Partners
+Use code with caution.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+Configure database environment:
 
-## Contributing
+    Create a .env file in the project root directory.
+    Add necessary database credentials (host, database name, username, password) according to your MySQL setup.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Run database migrations:
+Bash
+
+php artisan migrate
+
+Use code with caution.
+
+Start the development server:
+Bash
+
+npm run serve
+
+Use code with caution.
+
+    This will start the Laravel development server, making the application accessible at http://localhost:8000 (or the port specified in your configuration).
+
+Project Structure:
+
+(Provide a clear overview of the directory structure, highlighting key folders and files)
+
+Deployment:
+
+(Provide specific instructions for deploying the application to a production environment, considering hosting options, configuration requirements, and security best practices)
+
+Contributing:
+
+Fell free to add to the project by creating a fork of the project repo then make additions to the file and create a pull request
+
+<!-- ====================================================================================================== -->
+
 
 ## Code of Conduct
 
