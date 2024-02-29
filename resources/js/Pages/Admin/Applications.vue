@@ -18,7 +18,7 @@
 
         <v-container class="bg-white mt-2">
              <v-sheet color="gray-lighten-3" class="font-weight-bold">
-                    {{applications[0].job_name}}
+                    {{applications[0].job_name}} Applicatons Recievied
             </v-sheet>
              <div class="text-right">
                 <v-btn
@@ -36,6 +36,7 @@
                     <th class="text-left">User Name</th>
                     <th class="text-left">Cover Letter</th>
                     <th class="text-left">Status</th>
+                    <th class="text-left">Actions</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -53,6 +54,11 @@
                             >
                                 pending
                             </v-chip>
+                    </td>
+                     <td>
+                        <v-icon icon="mdi-content-save-check" color="primary"></v-icon>
+                        <v-icon icon="mdi-pencil" color="success"></v-icon>
+                        <v-icon icon="mdi-trash-can" color="warning"></v-icon>
                     </td>
 
                 </tr>

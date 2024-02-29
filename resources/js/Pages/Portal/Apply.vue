@@ -61,7 +61,7 @@
                     variant="outlined"
                     density="compact"
                     :rules="[rules.required]"
-                    :items="['12 Months Graduate Training Program, January – December 2024']"
+                    :items="jobs"
                     item-title="name"
                     item-value="id"
                     :error="form.errors.job_id"

@@ -38,7 +38,7 @@ class JobController extends Controller
                 'job_id'=> $application->job_id,
                 'job_name' => $application->job->name,
                 'user_id' => $application->user_id,
-                'user_name' => $application->user->name,
+                'user_name' => $application->user->email,
                 'cover_letter' => $application->cover_letter
             ];
             array_push($allapp, $newApp);

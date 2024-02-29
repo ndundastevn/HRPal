@@ -55,8 +55,9 @@ Route::get('/hdashboard', function () {
 Route::get('/dashboard', function () {
     $id = Auth::User()->id;
     $application = ModelsApplication::where('user_id', $id)->first();
+    //dd($application);
     if(!empty($application)){
-        $applied_job = $application->job;
+        $applied_job = $application;
     }else{
         $applied_job = '';
     }
