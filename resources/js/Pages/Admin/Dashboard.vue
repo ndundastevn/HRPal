@@ -1,7 +1,7 @@
 <template>
     <AdminLayout>
         <!-- Welcome -->
-       <div class="text-h4 pa-2">Welcome to Your Dashboard</div>
+       <div class="text-h4 pa-2">Welcome to Admin's Dashboard</div>
         <!-- End welcome -->
 
         <v-row class="bg-white mt-2">

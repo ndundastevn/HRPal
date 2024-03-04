@@ -1,4 +1,4 @@
-Project Name: Recruitment Portal
+Project Name: HRPal
 
 Description:
 
@@ -50,24 +50,19 @@ Bash
 
 php artisan migrate
 
-Use code with caution.
-
 Start the development server:
 Bash
 
 npm run serve
 
-Use code with caution.
 
     This will start the Laravel development server, making the application accessible at http://localhost:8000 (or the port specified in your configuration).
 
 Project Structure:
 
-(Provide a clear overview of the directory structure, highlighting key folders and files)
 
 Deployment:
 
-(Provide specific instructions for deploying the application to a production environment, considering hosting options, configuration requirements, and security best practices)
 
 Contributing:
 
